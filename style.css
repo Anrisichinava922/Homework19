@@ -9,8 +9,7 @@ body{
     background-image:url(./assets/mobile.wertilebi.svg) , url(./assets/mobile.back.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: Red Hat Text;
-
+    font-family: 'Red Hat Text';
 }
 .container{
     display: flex;
@@ -35,7 +34,7 @@ h1{
 .countdown{
     display: flex;
     column-gap: 18px;
-    /* margin-bottom: 163px; */
+    margin-bottom: 163px;
 }
 h2{
     color: #FB5E84;
@@ -58,4 +57,16 @@ small{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/footer.back.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 130px;
+    height: 300px;
+    width: 100%;
+    padding: 190px 0 0 0;
 }

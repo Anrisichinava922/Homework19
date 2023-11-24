@@ -1,0 +1,41 @@
+@media (width > 1440px){
+    body{
+        background-image: url(./assets/desktop.wertilebi.svg) , url(./assets/desktop.back.svg);
+        background-size: cover;
+    }
+    h1{
+        color: #FFF;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 7.5px;
+        text-transform: uppercase;
+    }
+    h2{
+        color: #FB5E84;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 71px;
+        letter-spacing: -2.4px;
+    }
+    small{
+        color: #8385A9;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 5.919px;
+    }
+    .countdown{
+        column-gap: 30px;
+    }
+    .time{
+        row-gap: 20px;
+    }
+    footer{
+        background-image: url(./assets/footer.desktop.back.svg);
+        background-size: cover;
+    }
+}
