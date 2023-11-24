@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@600&family=Big+Shoulders+Display:wght@800;900&family=Chivo&family=DM+Serif+Display&family=Epilogue:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Hanken+Grotesk:wght@500;700;800&family=IBM+Plex+Sans:wght@400;700&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@700&family=Oldenburg&family=Open+Sans:wght@400;700&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;900&family=Red+Hat+Text:wght@700&family=Space+Mono:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(./assets/mobile.wertilebi.svg) , url(./assets/mobile.back.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Red Hat Text;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 140px 0 54px 0;
+}
+h1{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.136px;
+    text-transform: uppercase;
+}
+.countdown{
+    display: flex;
+    column-gap: 18px;
+    /* margin-bottom: 163px; */
+}
+h2{
+    color: #FB5E84;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -1.08px;
+}
+small{
+    color: #8385A9;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.959px;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
